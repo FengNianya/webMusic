@@ -35,7 +35,7 @@
           <h5 class="header col s12 light">Three squirrel music, to what you want to hear, do the best</h5>
         </div>
         <div class="row center">
-          <a href="./dist/index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">开始点歌</a>
+          <a href="./dist/index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1" onclick="Onload()">开始点歌</a>
         </div>
         <br><br>
 
@@ -169,4 +169,11 @@
   <script src="./aboutUsHtml/js/init.js"></script>
 
   </body>
+  <script>
+    window.onload=Onload;
+     
+    function Onload(){
+      alert('由于资源过多，开发人员技术有限，请您稍等马上就好')
+    }
+  </script>
 </html>
