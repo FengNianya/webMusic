@@ -86,7 +86,8 @@ img.logo {
   width: 180px;
 }
 .withFlash{
-  width: 120%;
+    width: 100%;
+    overflow: scroll;
 }
 .flashBox{
   height: 500px;
