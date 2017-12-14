@@ -88,10 +88,13 @@ img.logo {
 .withFlash{
     width: 100%;
     overflow: scroll;
+    text-align: center;
 }
 .flashBox{
   height: 500px;
   position: relative;
+  text-align: center;
+  
 }
 .flashBox h4{
   margin: 0;
@@ -102,9 +105,11 @@ img.logo {
   background-size:100%;
   background-repeat:no-repeat;
   width: 844px;
-  height: 414px;
+  height: 408px;
   padding: 14px;
   margin: 0 auto;
+  text-align: center;
+  
   }
 .flowplayer embed{
   display: block;
